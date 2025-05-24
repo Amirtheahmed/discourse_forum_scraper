@@ -1,7 +1,3 @@
-Here is a concise `README.md` for your Discourse scraper project, describing its purpose and usage:
-
----
-
 # Discourse Forum Scraper
 
 This project is a Python-based tool for scraping topics and posts from a Discourse forum. It saves each topic as a Markdown file with YAML front matter metadata, organized by category and subcategory.
