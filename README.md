@@ -56,13 +56,18 @@ Optional arguments:
 
 Or use the Makefile:
 ```bash
-make scrap
+make scrap           # Start the scraping process
+make merge           # Merge all markdown files by directory into the 'merged' folder
+make clean-scraped   # Remove all scraped files
+make clean-merged    # Remove all merged files
+make help            # Show help and available targets
 ```
 
 ## Output
 
-- Markdown files for each topic, organized by category/subcategory.
-- Each file includes YAML front matter with topic metadata.
+- Scraped markdown files are saved in the scraped directory, organized by category/subcategory.
+- Merged markdown files are generated in the merged directory, with one file per source directory.
+- Each file includes YAML front matter with topic metadata (for scraped files) and a header (for merged files).
 
 ## License
 
