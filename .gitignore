@@ -1,0 +1,6 @@
+config.json
+session.pkl
+scrapped
+scraped
+.DS_Store
+.idea

@@ -1,0 +1,13 @@
+{
+    "base_url": "https://discouse-forum-base-url.com",
+    "auth_required": false,
+    "username": "discourse_user",
+    "password": "discourse_password",
+    "passcode": "discourse_passcode",
+    "rate_delay": 1,
+    "output_dir": "scraped",
+    "enabled_category_ids": [
+      1,
+      2
+    ]
+}
